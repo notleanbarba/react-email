@@ -186,7 +186,7 @@ describe("Tailwind component", () => {
     );
   });
 
-  it("should override inline styles with Tailwind styles", () => {
+  it("should not override inline styles with Tailwind styles", () => {
     const actualOutput = render(
       <Tailwind>
         <div
@@ -196,9 +196,7 @@ describe("Tailwind component", () => {
       </Tailwind>,
     );
 
-    expect(actualOutput).toMatchInlineSnapshot(
-      '"<div style=\\"background-color:rgb(0,0,0);font-size:16px\\"></div>"',
-    );
+    expect(actualOutput).toMatchSnapshot();
   });
 
   it("should override component styles with Tailwind styles", () => {
