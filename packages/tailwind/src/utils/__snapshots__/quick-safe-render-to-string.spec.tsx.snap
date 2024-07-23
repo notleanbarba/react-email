@@ -1,0 +1,3 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`quick safe render to string 1`] = `"<div className=\\"bg-red-500 text-gray-200\\" style=\\"{\\"marginInline\\":\\"auto\\",\\"width\\":\\"100%\\",\\"maxWidth\\":\\"768px\\"}\\">Content in here that is interesting<h1><Component><div className=\\"user-name flex text-2xl\\">Gabriel</div></Component></h1><span className=\\"dark:bg-green-500 hover:bg-green-800 transition-colors\\">More content that comes from another jsx that should be render properly</span></div><span className=\\"dark:bg-green-500 hover:bg-green-800 transition-colors\\">More content that comes from another jsx that should be render properly</span>"`;
